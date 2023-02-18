@@ -1,22 +1,29 @@
 {
     "format_version": 1,
-    "tooth": "<tooth repository path without http:// or https://>",
-    "version": "<version>",
-    "dependencies": {},
-    "information": {
-        "name": "<name>",
-        "description": "<description>",
-        "author": "<author>",
-        "license": "<license>",
-        "homepage": "<homepage>"
+    "tooth": "github.com/Tooth-Hub/StarterPack",
+    "version": "0.1.0",
+    "dependencies": {
+        "github.com/Tooth-Hub/LiteLoaderBDS": [
+            [
+                "2.10.x"
+            ]
+        ],
+        "github.com/Tooth-Hub/LLAntiCheat": [
+            [
+                "1.6.x"
+            ]
+        ],
+        "github.com/Tooth-Hub/LLEssentials": [
+            [
+                "2.10.x"
+            ]
+        ]
     },
-    "placement": [
-        {
-            "source": "<source>",
-            "destination": "<destination>"
-        }
-    ],
-    "possession": [
-        "<possession>"
-    ]
+    "information": {
+        "name": "Starter Pack",
+        "description": "An integration pack for starters",
+        "author": "Futrime",
+        "license": "",
+        "homepage": "https://github.com/Tooth-Hub/StarterPack"
+    }
 }
